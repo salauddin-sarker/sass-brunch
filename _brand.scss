@@ -1,0 +1,43 @@
+
+//brand-area-start
+.brand-area{
+    background-color: $mata-color;
+    color: $white-color;
+    padding: 10px 0 40px 0;
+    text-align: center;
+    .container{
+        .brand-content{
+            .quoat-icon i{
+                display: block;
+                font-size: 43px;
+                padding: 25px 0;
+                text-align: center;
+            }
+            p{
+                font-size: 17px;
+                line-height: 29px;
+                max-width: 650px;
+                margin: auto; 
+            }
+            h5{
+                font-size: $para-19;
+                font-weight: bold;
+                line-height: 29px;
+                padding: 10px 0 15px 0;
+            }
+            .brand-social-icon{
+                i{  border-radius: 50%;
+                    color: $mata-color;
+                    display: inline-block;
+                    font-size: 24px;
+                    background-color: $white-color;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    margin: 0 15px;
+                    width: 40px;
+                }
+            }
+        }
+    }
+}

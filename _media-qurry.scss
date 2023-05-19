@@ -1,0 +1,477 @@
+
+//@media-querry-start
+// Large devices (desktops, less than 1288px)
+@media (max-width: 1288px) {
+    .new-area{
+        .new-content{
+            padding: 165px 170px;
+        }
+    }
+    .product-text p {
+        padding: 0px 25px 15px 25px;
+    }
+    .cuisine-brand-area {
+        padding: 0px 0 27px 0px;
+    }
+}
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199px) {
+    .header-area {
+        height: 80vh;
+    }
+    .header-area .container .row .logo a {
+        font-size: 25px;
+    }
+    .header-area .container .row nav ul li a {
+        font-size: 25px;
+    }
+    .header-content {
+        padding: 30px 20px;
+    }
+    .heading-title, .header-content h2 {
+        font-size: 80px;
+    }
+    .header-content .sub-heading {
+        font-size: 60px;
+        line-height: 70px;
+        min-width: 480px;
+    }
+    .header-content .btn-primary {
+        font-size: 30px;
+    }
+    .traditional-flavour-area .traditional-contant .traditional-left {
+        flex-basis: 48%;
+    }
+    .traditional-flavour-area .traditional-contant .traditional-right {
+        flex-basis: 48%;
+    }
+    .new-area .new-content {
+        padding: 100px 20px;
+    }
+    .product-title {
+        padding: 28px 0 28px 0;
+    }
+    .product-text p {
+        font-size: 15px;
+        line-height: 23px;
+        padding: 0px 10px 15px 10px;
+    }
+    .product-text h4 {
+        font-size: 17px;
+        line-height: 27px;
+        padding-bottom: 10px;
+    }
+    .cuisine-brand-area {
+        background-size: contain;
+        padding: 25px 0px 25px 0px;
+    }
+    // .cuisine-brand-area {
+    //     background-size: cover;
+    //     padding: 25px 0px 15px 0px;
+    // }
+    .cuisine-brand-area .cuisine-title p {
+        font-size: $para-17;
+        line-height: 27px;
+        padding: 20px 231px;
+    }
+    .discover-area .overly-color {
+        padding: 40px 0;
+    }
+    .footer-area .container .footer-wrapper .footer-text p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+// Medium devices (tablets, less than 992px)
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) {
+    .header-area {
+        height: 70vh;
+    }
+    .header-area .container .row .logo a {
+        font-size: 25px;
+        padding: 40px 30px;
+    }
+    .header-area .container .row nav ul li a {
+        font-size: 25px;
+        padding: 20px 10px;
+    }
+    .heading-title, .header-content h2, .header-content h2 {
+        font-size: 65px;
+    }
+    .header-content .sub-heading {
+        font-size: 55px;
+        line-height: 63px;
+    }
+    .traditional-flavour-area .traditional-contant .traditional-left h3 {
+        font-size: 22px;
+        line-height: 32px;
+        padding-bottom: 10px;
+    }
+    .traditional-flavour-area .traditional-contant .traditional-left p {
+        font-size: 17px;
+        line-height: 27px;
+        letter-spacing: .7px;
+    }
+    .traditional-flavour-area .traditional-contant .traditional-right img {
+        padding: 30px;
+    }
+    .product-items {
+        flex-direction: column;
+    }
+    .cuisine-brand-area .cuisine-title p {
+        padding: 20px 120px;
+    }
+    .discover-area .overly-color .discover-menu-list .discover-left-menu .content {
+        justify-content: flex-start;
+    }
+    .discover-area .overly-color .discover-right-menu .content {
+        justify-content: flex-start;
+    }
+    .discover-area .overly-color .discover-menu-list .discover-left-menu .content {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .discover-area .overly-color .discover-right-menu .content {
+        flex-direction: column;
+    }
+    .discover-area .overly-color .discover-right-menu .content .d-menu-text {
+        -ms-flex-preferred-size: 50%;
+        margin: 0 20px 0 0;
+    }
+    .blog-area .container .blog-content-wrapper {
+        flex-direction: column;
+        max-width: 70%;
+    }
+    .blog-area .container .blog-content-wrapper .single-blog .blog-text span {
+        font-size: 17px;
+    }
+    .blog-area .container .blog-content-wrapper .single-blog .blog-text h5 {
+        font-size: 19px;
+    }
+    .blog-area .container .blog-content-wrapper .single-blog .blog-text {
+        padding: 0 25px 20px 25px;
+    }
+    .blog-area .container .blog-content-wrapper .single-blog .blog-text p {
+        font-size: 19px;
+        line-height: 29px;
+    }
+    .blog-area .container .blog-content-wrapper .single-blog .blog-text .blog-btn a {
+        padding: 15px 0px 20px 10px;
+    }
+    .footer-area .container .footer-wrapper .footer-text {
+        padding: 0 25px;
+    }
+}
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) {
+    .header-area .container .row .logo a {
+        font-size: 20px;
+        padding: 20px 14px;
+        text-decoration: underline;
+    }
+    .header-area .container .row nav ul li {
+        padding: 20px 0;
+    }
+    .header-area .container .row nav ul li a {
+        font-size: 18px;
+        padding: 0 14px;
+    }
+    .traditional-flavour-area .traditional-contant .traditional-left {
+        flex-basis: 50%;
+    }
+    .traditional-flavour-area .traditional-contant .traditional-right {
+        flex-basis: 50%;
+        padding-right: 27px;
+    }
+    .traditional-flavour-area .traditional-contant .traditional-left h3 {
+        padding: 20px 0;
+    }
+    .traditional-flavour-area .traditional-contant .traditional-right img {
+        padding: 10px;
+    }
+    .traditional-flavour-area .traditional-contant .traditional-left p {
+        font-size: 13px;
+        padding-bottom: 10px;
+        line-height: 25px;
+    }
+    .new-area .new-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .new-heading, .new-area .new-content .new-left h4, .new-area .new-content .new-center h4, .new-area .new-content .new-right h4 {
+        font-size: 28px;
+        font-weight: 400;
+        margin: 15px 0;
+    }
+    .new-para, .new-area .new-content .new-left p, .new-area .new-content .new-center p, .new-area .new-content .new-right p {
+        font-size: 20px;
+        line-height: 30px;
+        min-width: 350px;
+    }
+    .new-area .new-content {
+        padding: 30px 20px;
+    }
+    .new-area .new-content .new-center {
+        margin: 50px 0;
+    }
+    .discover-area .overly-color .discover-right-menu .content .discove-image {
+        margin-left: 0px;
+    }
+    .discover-area .overly-color .discover-menu-list .discover-left-menu .content {
+        justify-content: flex-start;
+    }
+    .discover-area .overly-color .discover-right-menu .content {
+
+        justify-content: flex-start;
+    }
+    .discover-area .overly-color .discover-menu-list .discover-left-menu .content .discove-image {
+        margin-left: 0px;
+    }
+    .brand-area .container .brand-content p {
+        padding: 0 20px;
+    }
+    .contact-area .container .contact-form .form-left form select {
+        width: 75%;
+        margin-left: 10px;
+    }
+    .contact-area .container .contact-form .form-left form input[type='text'] {
+        margin-left: 10px;
+    }
+    .contact-area .container .contact-form .form-left form label {
+        margin-left: 10px;
+    }
+    input{
+        width: 75%;
+    }
+    .contact-area .container .contact-form .form-center form .input-wrapper input {
+        width: 75%;
+    }
+    .contact-area .container .contact-form .form-center form .input-wrapper::before {
+        right: 30%;
+    }
+    .contact-area .container .contact-form .form-center form input[type='email'] {
+        width: 75%;
+    }
+    .contact-area .container .contact-form .form-center form input[type='submit'] {
+        width: 75%;
+    }
+    .contact-area .container .contact-form .form-right form input[type='text'] {
+        width: 75%;
+    }
+    .contact-area .container .contact-form .form-right form .time-wrapper::before {
+        right: 30%;
+    }
+}
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575px) {
+    .header-area .container .row .logo {
+        flex-basis: 100%;
+    }
+    .header-area .container .row nav ul li {
+        display: block;
+    }
+    .header-content{
+        display: none;
+    }
+    .header-area {
+        height: 32vh;
+        position: relative;
+        z-index: 11;
+    }
+    .header-area::before {
+        content: "";
+        background-color: rgba($color: #000, $alpha: .30);
+        display: block;
+        height:100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: -222;
+     }
+     .traditional-flavour-area .traditional-contant {
+        flex-direction: column;
+    }
+    .traditional-flavour-area .traditional-contant .traditional-left {
+        padding: 0px 10px;
+    }
+    .new-area .new-content .new-left,
+    .new-area .new-content .new-center, 
+        .new-area .new-content .new-right {
+        width: 100%;
+    }
+    .new-heading, .new-area .new-content .new-left h4, .new-area .new-content .new-center h4, .new-area .new-content .new-right h4, .new-area .new-content .new-left h4, .new-area .new-content .new-center h4, .new-area .new-content .new-right h4 {
+    font-size: 22px;
+}
+    .new-para, .new-area .new-content .new-left p, .new-area .new-content .new-center p, .new-area .new-content .new-right p, .new-area .new-content .new-left p, .new-area .new-content .new-center p, .new-area .new-content .new-right p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .new-area .new-content .new-center {
+        margin: 30px 0;
+    }
+    .product-area {
+        padding: 0;
+    }
+    .container{
+        padding: 0;
+    }
+    .product-text p {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 0px 10px 0px 10px;
+    }
+    .cuisine-brand-area .cuisine-title h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .cuisine-brand-area .cuisine-title p {
+        padding: 15px 30px;
+    }
+    .cuisine-brand-area .cuisine-title .cuisine-self ul li {
+        padding: 7px 19px;
+    }
+    .cuisine-brand-area .cuisine-title div.rectangle {
+        margin: 4px 0 10px 0;
+    }
+    .discover-area {
+        padding-top: 0; 
+    }
+    .blog-area .container .blog-content-wrapper {
+        max-width: 100%;
+    }
+    .product-title {
+        padding: 10px 0 13px 0;
+    }
+    .base-heading1, .product-title h2, .discover-area .overly-color .discover-title h2, .contact-area .container .contact-title h2, .blog-area .container .blog-title h2 {
+        font-size: 55px;
+        line-height: 65px;
+    }
+    .base-heading2, .product-title h3, .discover-area .overly-color .discover-title h3, .blog-area .container .blog-title h3 {
+        font-size: 35px;
+        line-height: 45px;
+        margin-bottom: 10px;
+    }
+    .discover-area .overly-color .discover-menu-list {
+        flex-direction: column;
+    }
+    .discover-area .overly-color .discover-right-menu .content {
+        padding: 0px 30px;
+    }
+    .discover-area .overly-color .discover-menu-list .discover-left-menu .content {
+        padding: 0 30px;
+    }
+    .discover-area .overly-color .discover-menu-list .discover-left-menu .content .discove-image {
+        height: 70px;
+        line-height: 93px;
+        margin: 0 0 15px 20px;
+        width: 70px;
+    }
+    .discover-area .overly-color .discover-menu-list .discover-left-menu .content {
+        margin: 20px 0;
+    }
+    .discover-area .overly-color .discover-right-menu .content .discove-image {
+        border-radius: 50%;
+        height: 70px;
+        line-height: 93px;
+        margin: 0 0 15px 20px;
+        width: 70px;
+    }
+    .discover-area .overly-color {
+        padding: 20px 0;
+    }
+    .blog-area {
+        padding: 20px 0 0px 0;
+    }
+    .discover-area .overly-color .discover-right-menu .content {
+        margin: 0;
+    }
+    .contact-area .container .contact-form {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .contact-area .container .contact-form .form-left form select,
+    .contact-area .container .contact-form .form-left form input[type='text'] {
+        margin-left: 0;
+    }
+    .contact-area .container .contact-form .form-center form label {
+        margin: 30px 0 12px 0;
+    }
+    .contact-area .container .contact-form .form-center form .input-wrapper input {
+        margin-bottom: 13px;
+    }
+    .contact-area .container .contact-form .form-center form .input-wrapper input {
+        margin-bottom: 0px;
+    }
+    .contact-area .container .contact-form .form-center form input[type='email'] {
+        margin-bottom: 60px;
+    }
+    .contact-area .container .contact-form .form-center form input[type='submit'] {
+        margin-bottom: 30px;
+    }
+    .footer-area .container .footer-wrapper {
+        padding: 0 30px;
+    }
+    .footer-area .container .footer-wrapper .footer-text {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .footer-area .container .footer-wrapper .footer-text h3 {
+        margin-bottom: 5px;
+    }
+    .footer-area .container .footer-wrapper .footer-list .about h4 {
+        margin-bottom: 10px;
+    }
+    .footer-area .container .footer-wrapper .footer-list .about h4 {
+        margin-bottom: 10px;
+        padding-top: 20px;
+    }
+    .footer-area .container .footer-wrapper .footer-list {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .brand-area .container .brand-content .brand-social-icon i {
+        margin: 0 10px;
+    }
+    .footer-area .container .footer-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 10px;
+    }
+    .footer-area .container .footer-wrapper {
+        padding: 0;
+    }
+    .footer-area .container .footer-wrapper .footer-text {
+        padding: 0;
+    }
+    // mobile-menu
+    .mobile-menu{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .togglearea{
+        display: block;
+    }
+    .navbar li{
+        display: flex;
+        flex-direction: column;
+    }
+    .togglearea{
+        display: flex;
+    }
+    .header-area{
+        nav{
+            display: none;
+        }
+    }
+    .navbar ul li {
+        display: block;
+    }
+}
+

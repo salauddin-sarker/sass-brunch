@@ -1,0 +1,65 @@
+//new or latest area
+.angle{
+    background-color: $mata-color;
+    border-radius: 50%;
+    display: inline-block;
+    height: 31px;
+    padding: 0 5px;
+    width: 31px;
+}
+.new-heading{
+    font-size: $para-19;
+    font-weight: bold;
+    margin: 15px 0;
+    text-transform: capitalize;
+}
+.new-para{
+    font-size: $para-17;
+    line-height: 27px;
+}
+.new-area{
+    background-color: $white-color;
+    color: $mata-color;
+    .new-content{
+        display: flex;
+        justify-content: space-between;
+        padding: 165px 180px;
+        .new-left{
+            width: 33.333%;
+            .rectangle{
+               @extend .angle;
+            }
+            h4{
+                @extend .new-heading;
+            }
+            p{
+                @extend .new-para;
+            }
+        }
+        .new-center{
+            width: 33.333%;
+            .rectangle{
+                @extend .angle;
+             }
+             h4{
+                 @extend .new-heading;
+             }
+             p{
+                 @extend .new-para;
+             }
+        }
+        .new-right{
+            width: 33.333%;
+            .rectangle{
+                @extend .angle;
+             }
+             h4{
+                 @extend .new-heading;
+             }
+             p{
+                 @extend .new-para;
+             }
+        }
+
+    }
+}

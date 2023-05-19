@@ -1,0 +1,33 @@
+//traditional-flavour-area
+.traditional-flavour-area{
+    background-color: $mata-color;
+    .traditional-contant{
+        display: flex;
+        justify-content: space-evenly;
+       .traditional-left{
+           flex-basis: 46%;
+           justify-content: center;
+           margin: auto;
+           h3{
+               color: $white-color;
+               font-size: 30px;
+               font-weight: bold;
+               line-height: 40px;
+               padding-bottom: 30px;
+               text-transform: lowercase;
+           }
+           p{
+               color: $white-color;
+               font-size: $para-19;
+               line-height: 30px;
+           }
+       }
+       .traditional-right{
+        flex-basis: 46%;
+        img {
+            padding: 61px;
+        }
+       }
+    }
+
+}

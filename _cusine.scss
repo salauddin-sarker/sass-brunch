@@ -1,0 +1,40 @@
+
+//traditional cuisine area
+.cuisine-brand-area{
+    background-image: url(./images/traditional-bg.jpg);
+    background-color: $gray-color;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 72px 0 72px 0;
+    .cuisine-title{
+        color: $mata-color;
+        text-align: center;
+        h3{
+            font-size: 29px;
+            line-height: 39px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        p{
+            font-size: 19px;
+            line-height: 33px;
+            padding: 20px 268px
+        ;
+        }
+        div.rectangle{
+            @extend .angle;
+            margin: 17px 0 27px 0;
+        }
+        .cuisine-self{
+            text-align: center;
+            ul{
+                li{
+                    display: inline-block;
+                    font-size: 17px;
+                    font-weight: bold;
+                    padding: 7px 33px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,163 @@
+//header-area start
+.base-heading1{
+    color: $heading-style-color;
+    font-size: $heading-77;
+    line-height: 85px;
+    font-family: 'Cookie', cursive;
+    text-align: center;
+    text-transform: capitalize;
+}
+.base-heading2{
+    color: $heading-color;
+    font-size: $heading-48;
+    line-height: 56px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.header-area{
+    background-image: url(./images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    .container{
+        .row{
+            .logo{
+                flex-basis: 20%;
+                a{
+                    color: $white-color;
+                    display: inline-block;
+                    font-size: $heading-35;
+                    font-weight: bold;
+                    padding: 40px 40px;
+                    text-transform: uppercase;
+                    
+                }
+            }
+            nav{
+                flex-basis: 80%;
+                text-align: center;
+                ul{
+                    margin: 0;
+                    li{
+                        display: inline-block;
+                        padding: 40px 0;
+                        a{
+                            color: $white-color;
+                            font-size: $heading-35;
+                            font-weight: bold;
+                            padding: 20px 10px;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.heading-title{
+    color: $heading-style-color;
+    font-size: $heading-102;
+    font-family: 'Cookie', cursive;
+    text-transform: capitalize;
+}
+.header-content{
+    background-color: $gray-color;
+    left: 50%;
+    margin: auto;
+    opacity: .8;
+    position: absolute;
+    padding: 91px 104px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 50%;
+    h2{
+        @extend .heading-title;
+    }
+    .sub-heading{
+        color: $heading-color;
+        font-size: $heading-77;
+        line-height: 87px;
+        min-width: 550px;
+        padding-bottom: 30px;
+        text-transform: uppercase;
+    }
+    .btn-primary{
+        background-color: $white-color;
+        border: none;
+        font-size: $heading-35;
+        padding: 9px 26px;
+        text-transform: uppercase;
+    }
+}
+//mobile-menu-start
+.navbar{
+    align-items: center;
+    display: none;
+    justify-content: center;
+}
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 20px;
+}
+.navbar a{
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    padding: 18px 0px;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+   
+}
+.navbar a::after{
+   
+    bottom: 6px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transform: scale(0);
+    transition: all .3s;
+    width: 100%;
+
+}
+.navbar li:hover a::after{
+    transform: scale(1);
+}
+.togglearea{
+    background-color: rgb(136, 119, 119);
+    display: none;
+}
+#toggle{
+    display: none;
+}
+.togglearea label{
+    align-items: center;
+    border-radius: 3px;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px 10px 0 0 ;
+    width: 25px;
+}
+label span{
+    background-color: black;
+    display: inline-block;
+    height: 2px;
+    margin: 2px 0;
+    width: 70%;
+}
+#toggle:checked + .navbar{
+    display: flex;
+    justify-content: center;
+}

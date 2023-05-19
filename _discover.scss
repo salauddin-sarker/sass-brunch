@@ -1,0 +1,110 @@
+
+// discover-area -start
+
+.discover-area{
+    background-image: url(./images/banner-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 320px;
+    .overly-color{
+        background-color: rgba($color: #fff, $alpha: .80);
+        padding: 90px 0;
+        .discover-title{
+            h2{
+                @extend .base-heading1;
+            }
+            h3{
+                @extend .base-heading2; 
+            }
+        }
+        .discover-menu-list{
+            color: $heading-style-color;
+            display: flex;
+            justify-content: space-between;
+            .discover-left-menu{
+                flex-basis: 100%;
+                .content{
+                    display: flex;
+                    flex-basis: 100%;
+                    justify-content: center;
+                    margin: 50px 0;
+                    .discove-image{
+                        background-color: #ffffff;
+                        height: 81px;
+                        line-height: 104px;
+                        margin-left: 40px;
+                        text-align: center;
+                        width: 81px;
+                        border-radius: 50%;
+                        img{}
+                    }
+                }
+                   
+                    .d-menu-text{
+                        flex-basis: 50%;
+                        margin-left: 20px;
+                        h4{
+                            font-size: 19px;
+                            font-weight: bold;
+                            line-height: 29px;
+                            text-transform: uppercase;
+                        }
+                        p{
+                            font-size: $para-17;
+                            line-height: 25px;
+                            span,sub{
+                                font-size: $para-17;
+                                font-weight: bold;
+                                line-height: 25px;
+                            }
+                        }
+                    }
+            }
+        }
+            .discover-right-menu{
+                flex-basis: 100%;
+                .content{
+                    display: flex;
+                    flex-basis: 100%;
+                    justify-content: center;
+                    margin: 50px 0;
+                    .discove-image{
+                        background-color: #ffffff;
+                        height: 81px;
+                        line-height: 104px;
+                        margin-left: 40px;
+                        text-align: center;
+                        width: 81px;
+                        border-radius: 50%;
+                        img{}
+                    }
+                    img{
+                    }
+                    .d-menu-text{
+                        flex-basis: 50%;
+                        margin-left: 20px;
+                        h4{
+                            font-size: 19px;
+                            font-weight: bold;
+                            line-height: 29px;
+                            text-transform: uppercase;
+                        }
+                        p{
+                            font-size: $para-17;
+                            line-height: 25px;
+                            span,sub{
+                                font-size: $para-17;
+                                font-weight: bold;
+                                line-height: 25px;
+                            }
+                        }
+                    }
+                }
+            }
+    
+    }
+}
+
+//image-background-area
+
+//contact-area-start

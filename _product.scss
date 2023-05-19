@@ -1,0 +1,83 @@
+
+//product-items-area
+.product-area {
+    background-image: url(./images/banner-3.png);
+    background-size: cover;
+    padding: 75px;
+    background-repeat: no-repeat;
+}
+.product-title{
+    background-color: rgba($color: #fff, $alpha: .80);
+    padding: 54px 0 28px 0;
+    text-align: center;
+    h2{
+        @extend .base-heading1;
+    }
+    h3{
+        @extend .base-heading2;
+    }
+}
+.product-items{
+    display: flex;
+    width: 100%;
+}
+.product-show{
+    display: flex;
+    flex-basis: 50%;
+    background-color: $white-color
+}
+.product-show1{
+    @extend .product-show;
+    background-color: rgba($color: #fff, $alpha: .80);
+}
+.product-show2{
+    @extend .product-show;
+}
+.product-show3{
+    @extend .product-show;
+    background-color: rgba($color: #fff, $alpha: .80);
+}
+.product-show4{
+    @extend .product-show;
+    background-color: rgba($color: #fff, $alpha: .80);
+}
+.product-show5{
+    @extend .product-show;
+    background-color: rgba($color: #fff, $alpha: .80);
+}
+.product-show6{
+    @extend .product-show;
+}
+.product-image{
+    flex-basis: 50%;
+    max-width: 100%;
+    
+}
+
+.product-text {
+    flex-basis: 50%;
+    margin: auto;
+    text-align: center;
+    h4{
+        font-size: $para-19;
+        font-weight: bold;
+        line-height: 29px;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 17px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        
+        padding: 0px 56px;
+        padding-bottom: 20px;
+    }
+    span,sub{
+        font-size: 17px;
+        font-weight: bold;
+    }
+}
+.w-50{
+    width: 50%;
+}
